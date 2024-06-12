@@ -1,0 +1,18 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content" : "Vs code rest client as testing tool",
+    "important": true
+}
+
+
+// ### used for adding multiple request in a single file.
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "Another note for REST testing",
+    "important": false
+}
